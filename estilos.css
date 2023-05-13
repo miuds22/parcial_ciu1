@@ -1,0 +1,255 @@
+#navbar{
+   transition: background-color 0.5s ease; /* Añade una transición al cambiar el color de fondo */
+}
+
+#navbar:hover{background-color: rgba(0, 0, 0, 0.7); /* Color de fondo al pasar el mouse sobre el encabezado */ }
+
+.form{ height: 850px;width: 100%;}
+
+
+.oscurecido{
+   padding-top: 16px;
+   padding-bottom: 48px;
+   background-color: rgba(0, 0, 0, 0.4);
+   height: 5%;
+}
+
+.sombreada{
+   text-shadow: 0 0 3px purple;
+}
+#main {
+   background-color: rgba(0, 0, 0, 0.5);
+ }
+
+/* Imagen de fondo */
+body {
+  background-image: url('img/wp5307919.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100vw;
+}
+
+h1{
+   font-family: 'Orbitron', sans-serif;
+   color: white;
+}
+
+h2{
+   font-family: 'Orbitron', sans-serif;
+   font-size: 15px;
+   color: white;
+}
+
+.lp_titulos{
+   text-align: center;
+   color: white;
+   height: 65%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   font-size: 300%;
+}
+
+
+
+.lp{
+   text-align: center;
+   color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   text-align: center;
+}
+
+.textoBlanco{
+   color: white;
+}
+
+h3{
+   font-family: 'Orbitron', sans-serif;
+   font-size: 10px;
+   color: white;
+}
+
+#media
+{  
+   display:none;
+}
+
+#principal{
+   width: 100% ;
+   height: 850px;
+   padding-top: 20%;
+}
+
+
+.logo-white {
+    width: 100%;
+    max-height: 57px;
+    max-width: 167px;
+    opacity: 1;
+    transition: opacity .3s;
+    position: relative;
+}
+
+#btnMenu{
+   color: white;
+}
+
+#dvcarrusel{
+   align-self: center;
+   width: 75%;
+}
+
+.carousel-item img {
+   height: 400px;
+   width: 100%;
+   object-fit: cover;
+ }
+
+.CartaInvitacion{
+   width: 100%; 
+   height: 350px;
+   padding: 30px;
+   display:flex;
+}
+
+.cartaBlanca{ 
+width:100%; 
+height:100%;
+
+padding: 16px 16px 16px 16px;
+
+}
+
+.textoBloque {
+   width:100%;
+   height: 100%;
+   text-align: left;
+   color:white"
+
+}
+
+.cartaNegra{
+   background-color: black;
+   width:100%;
+   height: 100%;
+   padding: 16px 24px 16px 16px;
+}
+
+
+.contenido {
+      font-family: 'Orbitron', sans-serif;
+      margin: 20px; 
+      text-align: center;
+      
+   }
+
+.btncontainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 30vh;
+   background-color: #D4A4FF;
+   font-family: 'Orbitron', sans-serif;
+   font-size: 400%;
+   }
+   
+   .btn:hover {
+   transform: scale(1.1);
+   }
+
+   .primario
+   {
+      opacity: 0;
+      transition: opacity 4s;
+    }
+   .secundario {
+      opacity: 0;
+      transition: opacity 5s;
+    }
+    
+    .primario.aparecer,.secundario.aparecer {
+      opacity: 1;
+    }
+
+
+
+footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 3   0px;
+   background-color: black;
+   color: #fff;
+   display: flex;
+   gap:20%;
+ }
+
+
+ .w-inline-block {
+   max-width: 100%;
+   display: inline-block;
+}
+
+.icn-social-small {
+   width: 24px;
+   height: 24px;
+   background-color: #1d2b36;
+   border-bottom-style: none;
+   border-radius: 100px;
+   margin-left: 4px;
+   margin-right: 4px;
+   transition: background-color .2s;
+}
+.icn-social-small.twitter {
+   background-image: url(img/tw.png);
+   background-position: 50%;
+   background-repeat: no-repeat;
+   background-size: 40px;
+}
+
+.icn-social-small.facebook {
+   background-image: url(img/fb.png);
+   background-position: 50%;
+   background-repeat: no-repeat;
+   background-size: 20px;
+}
+
+
+.form-container {
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .form-1, .form-2 {
+   display: inline-block;
+   width: 48%;
+ }
+
+ .form-1{
+   background-color: white;
+   border-radius: 15px;
+   margin-top:  20px;
+   margin-bottom:  90px;
+
+ }
+
+
+ .form-2{
+   color: white;
+   background-color: #1d2b36;
+   border-radius: 15px;
+  
+ }
+ .centrado{
+   padding: 16px 16px;
+ }
+
+
+ #btnGrande {
+      width: 100%;
+      background-color: blueviolet;
+
+ }
